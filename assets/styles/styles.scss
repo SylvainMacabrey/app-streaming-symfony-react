@@ -1,0 +1,56 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: rgb(20, 20, 48);
+}
+
+.movieTitle {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.movieCategories {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.badgeCategory {
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(0, 178, 169) !important;
+}
+
+.movieDescription {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.movieTabs {
+    color: white;
+
+    .nav-link{
+        color: white;
+        background-color: rgb(20, 20, 48);
+        border-radius: 0px;
+
+        &.active {
+            color: white;
+            border-color: #2c2c44;
+            background-color: #2c2c44;
+        }
+    }
+}
+
+.movieDetail {
+    background-color: #2c2c44;
+    color: white;
+}
+
+.movieSuggestions {
+    margin-bottom: 20px;
+}
